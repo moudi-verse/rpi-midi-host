@@ -48,8 +48,8 @@ AKAI MPK Mini Play mk3 → Raspberry Pi → CME U2MIDI Pro → Make Noise 0-Coas
 
 ### 2. Copy script
 
-    chmod +x setup/midi-auto.sh
-    cp setup/midi-auto.sh /home/moudi/midi-auto.sh
+    sudo cp bin/midi-auto.sh /usr/local/bin/midi-auto.sh
+    sudo chmod +x /usr/local/bin/midi-auto.sh
 
 
 ### 3. Install systemd service

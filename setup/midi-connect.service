@@ -4,10 +4,9 @@ After=sound.target
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash /home/moudi/midi-auto.sh
-User=moudi
-Group=moudi
-SupplementaryGroups=audio
+ExecStart=/usr/local/bin/midi-auto.sh
+User=root
+Group=audio
 
 [Install]
 WantedBy=multi-user.target
