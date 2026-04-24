@@ -74,6 +74,13 @@ Expected output:
     MIDI connected!
 
 
+### 6. Verify MIDI devices (optional)
+
+    aconnect -l
+
+You should see both your controller (MPK) and MIDI interface (U2MIDI).
+
+
 ## Boot Optimization Optional
 
 Disable network wait:
